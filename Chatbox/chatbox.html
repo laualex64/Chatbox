@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Chatbox</title>
+    <link rel="stylesheet" href="chatbox.css">
+</head>
+
+<body>
+    <div class="chatbox-sec">
+        <div class="chatbox-logo">
+            <div><img src="..\Chatbox\chatbox_elements_\logo.png"></div>
+            <h1>Logo Here</h1>
+        </div>
+        <h2>ChatBox</h2>
+        <div class="chatbox-container">
+            <div class="chatbox-header">
+                <div><img src="..\Chatbox\chatbox_elements_\profile.png"></div>
+                <p>Jamie</p>
+            </div>
+            <div class="chatbox-content">
+                <!-- Chatbot Message -->
+                <div class="chatbot-message-wrapper">
+                    <div class="user">Jamie</div>
+                    <div class="message">Hello! Nice to meet you.</div>
+                    <div class="date"></div>
+                </div>
+                <!-- User Message -->
+                <!-- <div class="user-message-wrapper">
+                    <div class="user">You</div>
+                    <div class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh
+                        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi</div>
+                    <div class="date">30/10/2023 18:35:54</div>
+                </div> -->
+            </div>
+            <hr>
+            <div class="chatbox-input">
+                <div><textarea id="userMessageInput" class="no-border" maxlength="1000" placeholder="Type a message..."></textarea></div>
+                <div class="btn-wrapper"><button id="btnSend" class="btnSend">Send</button></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="chatbox.js"></script>
+</body>
+
+</html>
